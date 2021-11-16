@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="px-4 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold">{{ h1 }}</h1>
+    <app-pictures
+      class="my-3"
+      src="{{ src }}"
+      alt="{{ logoAlt }}"
+    ></app-pictures>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">{{ desc }}</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <btn btnClass="primary" btnName="Primer Boton"></btn>
+        <btn btnClass="success" btnName="Segundo Boton"></btn>
+      </div>
+    </div>
+    <div class="overflow-hidden">
+      <div class="container px-5">
+        <img
+          src="../../assets/Landing.jpg"
+          class="img-fluid border rounded-3 shadow-lg mb-4"
+          alt="Example image"
+          width="700"
+          height="500"
+          loading="lazy"
+        />
+      </div>
+      <hr />
+      <img class="mb-2" src="../../assets/Imagen.png" />
+    </div>
+  </div>
+</div>
